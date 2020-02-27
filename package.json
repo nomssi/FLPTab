@@ -1,0 +1,20 @@
+{
+  "name": "FLPTab",
+  "version": "0.0.1",
+  "description": "ZIDV Confirmation",
+  "private": true,
+  "devDependencies": {
+    "@ui5/cli": "^1.13.1",
+    "rimraf": "^2.7.1"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "^1.73.2",
+    "@openui5/sap.ui.core": "^1.73.2",
+    "@openui5/themelib_sap_belize": "^1.73.2"
+  },
+  "scripts": {
+    "build": "rimraf dist && ui5 build -a",
+    "upload": "rimraf dist && ui5 build --dest upload",
+    "start": "ui5 serve -o index.html"
+  }
+}

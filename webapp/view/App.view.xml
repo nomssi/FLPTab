@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" height="100%" displayBlock="true"
+	controllerName="FLPTab.controller.App">
+	<App id="app">
+		<Page title="{i18n>appDescription}" id="confirmation">
+			<content>
+				<IconTabBar id="idIconTabBar" select="tabSelect" items="{tabs>/filterTabs}" class="sapUiResponsiveContentPadding" expanded="true">
+					<items>
+						<IconTabFilter key="{tabs>key}" text="{tabs>text}" design="Vertical" iconColor="{tabs>state}" icon="{tabs>icon}"/>
+					</items>
+					<content></content>
+				</IconTabBar>
+			</content>
+		</Page>
+	</App>
+</mvc:View>
