@@ -4,7 +4,8 @@
 	<App id="app">
 		<Page title="{i18n>appDescription}" id="confirmation">
 			<content>
-				<IconTabBar id="idIconTabBar" select="tabSelect" items="{tabs>/filterTabs}" class="sapUiResponsiveContentPadding" expanded="true">
+				<IconTabBar id="idIconTabBar" select="tabSelect" items="{tabs>/filterTabs}" 
+				  class="sapUiResponsiveContentPadding" expanded="true">
 					<items>
 						<IconTabFilter key="{tabs>key}" text="{tabs>text}" design="Vertical" iconColor="{tabs>state}" icon="{tabs>icon}"/>
 					</items>
