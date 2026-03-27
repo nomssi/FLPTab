@@ -4,7 +4,7 @@
   "description": "ZIDV Confirmation",
   "private": true,
   "devDependencies": {
-    "@ui5/cli": "^1.13.1",
+    "@ui5/cli": "^4.0.43",
     "rimraf": "^2.7.1"
   },
   "dependencies": {
